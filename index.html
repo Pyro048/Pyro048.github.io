@@ -29,8 +29,46 @@
             margin: 15px 0;
             border-radius: 10px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .project-image {
+            flex-shrink: 0;
+            width: 120px;
+            height: 120px;
+            background: #e2e2e2;
+            border-radius: 10px;
+            object-fit: cover;
+            display: block;
+        }
+        .project-details {
+            flex: 1;
         }
         .project h3 { margin-top: 0; }
+        .resume-section {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .resume-link {
+            display: inline-block;
+            padding: 10px 25px;
+            background: #0070f3;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .resume-link:hover {
+            background: #005fbb;
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -58,31 +96,49 @@
         </p>
     </div>
 
+    <div class="resume-section">
+        <h2>Resume</h2>
+        <p>Download my resume below:</p>
+        <a href="resume.pdf" target="_blank" class="resume-link">View Resume (PDF)</a>
+        <!-- Replace "resume.pdf" with the actual path to your resume file -->
+    </div>
+
     <div class="section">
         <h2>Projects</h2>
-
         <div class="project">
-            <h3>Project Title #1</h3>
-            <p>Description of the project — what it does and what tech you used.</p>
-            <a href="#" target="_blank">View Project</a>  
-            •  
-            <a href="#" target="_blank">Source Code</a>
+            <img src="images/project1.png" alt="Project 1 Image" class="project-image" />
+            <!-- Replace with your image file -->
+            <div class="project-details">
+                <h3>Project Title #1</h3>
+                <p>Description of the project — what it does and what tech you used.</p>
+                <a href="#" target="_blank">View Project</a>  
+                •  
+                <a href="#" target="_blank">Source Code</a>
+            </div>
         </div>
 
         <div class="project">
-            <h3>Project Title #2</h3>
-            <p>Description of the project.</p>
-            <a href="#" target="_blank">View Project</a>  
-            •  
-            <a href="#" target="_blank">Source Code</a>
+            <img src="images/project2.png" alt="Project 2 Image" class="project-image" />
+            <!-- Replace with your image file -->
+            <div class="project-details">
+                <h3>Project Title #2</h3>
+                <p>Description of the project.</p>
+                <a href="#" target="_blank">View Project</a>  
+                •  
+                <a href="#" target="_blank">Source Code</a>
+            </div>
         </div>
 
         <div class="project">
-            <h3>Project Title #3</h3>
-            <p>Description of the project.</p>
-            <a href="#" target="_blank">View Project</a>  
-            •  
-            <a href="#" target="_blank">Source Code</a>
+            <img src="images/project3.png" alt="Project 3 Image" class="project-image" />
+            <!-- Replace with your image file -->
+            <div class="project-details">
+                <h3>Project Title #3</h3>
+                <p>Description of the project.</p>
+                <a href="#" target="_blank">View Project</a>  
+                •  
+                <a href="#" target="_blank">Source Code</a>
+            </div>
         </div>
     </div>
 
