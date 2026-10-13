@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ryan-rhodes-creative-technologist.crafty-bat-5599.chatgpt.site/sitemap.xml
+Sitemap: https://pyro048.github.io/sitemap.xml
