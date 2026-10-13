@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#71f6d1"/><stop offset=".52" stop-color="#7ba8ff"/><stop offset="1" stop-color="#b978ff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#71f6d1" stop-opacity=".24"/><stop offset="1" stop-color="#071018" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#9cb1ba" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#070b10"/><rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="950" cy="320" r="260" fill="url(#glow)"/>
+  <g transform="translate(900 315)" fill="none" stroke="url(#accent)"><circle r="170" opacity=".2"/><circle r="120" opacity=".35" stroke-dasharray="8 14"/><path d="M0 0V-170M0 0L147-85M0 0L147 85M0 0V170M0 0L-147 85M0 0L-147-85" opacity=".45"/></g>
+  <g transform="translate(900 315)"><circle r="58" fill="#0b1519" stroke="url(#accent)" stroke-width="2"/><circle r="12" fill="#71f6d1"/></g>
+  <g fill="#71f6d1"><circle cx="900" cy="145" r="8"/><circle cx="1047" cy="230" r="8"/><circle cx="1047" cy="400" r="8"/><circle cx="900" cy="485" r="8"/><circle cx="753" cy="400" r="8"/><circle cx="753" cy="230" r="8"/></g>
+  <rect x="76" y="72" width="56" height="56" rx="15" fill="#0b1519" stroke="#71f6d1" stroke-opacity=".6"/><text x="104" y="107" text-anchor="middle" fill="#71f6d1" font-family="Arial" font-size="16" font-weight="700">RR</text>
+  <text x="76" y="246" fill="#eef6f7" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Ryan Rhodes</text>
+  <text x="78" y="305" fill="url(#accent)" font-family="Arial, sans-serif" font-size="31" font-weight="600">Creative Technologist</text>
+  <text x="78" y="386" fill="#9babb2" font-family="Arial, sans-serif" font-size="23">AI systems · automation · data · IT</text>
+  <text x="78" y="515" fill="#6e8089" font-family="Arial, sans-serif" font-size="17" letter-spacing="2">DALLAS, TEXAS</text>
+</svg>
